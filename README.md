@@ -26,10 +26,10 @@ docker run --rm ghcr.io/tamnd/cyber:latest --help
 ## Usage
 
 ```bash
-cyber page <path>                      # fetch one page as a record
-cyber page <path> -o json              # as JSON, ready for jq
-cyber page <path> --template '{{.Body}}'  # just the readable body text
-cyber links <path>                     # the pages it links to, one per line
+cyber search "machine learning"        # search papers by keyword
+cyber search "нейронные сети" --lang ru  # search in Russian
+cyber article 9879640                  # fetch one article by ID
+cyber suggest "machine"                # autocomplete suggestions
 cyber --help                           # the whole command tree
 ```
 
