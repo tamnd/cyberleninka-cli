@@ -1,0 +1,10 @@
+title       = "cyber"
+baseURL     = "https://cyberleninka-cli.tamnd.com/"
+description = "Search scientific papers on CyberLeninka"
+contentDir  = "content"
+outputDir   = "public"
+theme       = "tago-doks"
+syntaxHighlight = "true"
+
+[params]
+github = "https://github.com/tamnd/cyberleninka-cli"
